@@ -4,11 +4,11 @@
 </picture>
 
 <p align="center">
-  <a href="https://manuelgs.com"><img alt="Website" src="https://img.shields.io/badge/manuelgs.com-1f6feb?style=flat-square&logo=googlechrome&logoColor=white"></a>
-  <a href="https://www.linkedin.com/in/manuel-garcia-sanz-9555a484/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square"></a>
-  <a href="https://huggingface.co/manuelgscom"><img alt="Hugging Face" src="https://img.shields.io/badge/Hugging_Face-manuelgscom-FFD21E?style=flat-square&logo=huggingface&logoColor=black"></a>
-  <a href="mailto:contacto@manuelgs.com"><img alt="Email" src="https://img.shields.io/badge/contacto@manuelgs.com-8250df?style=flat-square&logo=maildotru&logoColor=white"></a>
-  <img alt="Location" src="https://img.shields.io/badge/Valencia,_Spain_·_Remote_(CET)-30363d?style=flat-square">
+  <a href="https://manuelgs.com"><img alt="Website" src="https://img.shields.io/badge/manuelgs.com-1f6feb?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjEwIi8%2BPHBhdGggZD0iTTIgMTJoMjBNMTIgMmExNSAxNSAwIDAgMSAwIDIwTTEyIDJhMTUgMTUgMCAwIDAgMCAyMCIvPjwvc3ZnPg%3D%3D"></a>
+  <a href="https://www.linkedin.com/in/manuel-garcia-sanz-9555a484/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxwYXRoIGQ9Ik0xNiA4YTYgNiAwIDAgMSA2IDZ2N2gtNHYtN2EyIDIgMCAwIDAtNCAwdjdoLTR2LTdhNiA2IDAgMCAxIDYtNnoiLz48cmVjdCB4PSIyIiB5PSI5IiB3aWR0aD0iNCIgaGVpZ2h0PSIxMiIvPjxjaXJjbGUgY3g9IjQiIGN5PSI0IiByPSIyIi8%2BPC9zdmc%2B"></a>
+  <a href="https://huggingface.co/manuelgscom"><img alt="Hugging Face" src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"></a>
+  <a href="mailto:contacto@manuelgs.com"><img alt="Email" src="https://img.shields.io/badge/contacto@manuelgs.com-8250df?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxyZWN0IHg9IjIiIHk9IjQiIHdpZHRoPSIyMCIgaGVpZ2h0PSIxNiIgcng9IjIiLz48cGF0aCBkPSJtMjIgNi0xMCA3TDIgNiIvPjwvc3ZnPg%3D%3D"></a>
+  <img alt="Location" src="https://img.shields.io/badge/Valencia_·_Remote_(CET)-30363d?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxwYXRoIGQ9Ik0yMCAxMGMwIDYtOCAxMi04IDEycy04LTYtOC0xMmE4IDggMCAwIDEgMTYgMHoiLz48Y2lyY2xlIGN4PSIxMiIgY3k9IjEwIiByPSIzIi8%2BPC9zdmc%2B">
 </p>
 
 ## About me
