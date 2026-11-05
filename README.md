@@ -13,9 +13,31 @@
 
 ## About me
 
-Computer Engineer (UPV) with **15 years** building mission-critical, low-latency systems in **C++ and Linux**. Today I design and ship AI platforms **end to end**: data, fine-tuning, evaluation, optimized GPU inference and operations, on-prem, in the cloud or hybrid.
+Computer Engineer (UPV) with **15 years** building mission-critical, low-latency systems in **C++ and Linux**, most of them in contact-center and VoIP software, where an outage means calls dropping in real time. For six years I was the last escalation level: whatever broke in production (telephony, servers, performance, security) ended up on my desk.
+
+Today I design and ship AI platforms **end to end**: data, fine-tuning, evaluation, optimized GPU inference and operations, on-prem, in the cloud or hybrid. I bring the systems background into it: native inference engines instead of Python glue, capacity and VRAM planning, measured latency, and software that keeps running when the GPU fails.
 
 A hands-on architect: I decide on measured data (latency, cost, quality) and know what to automate, what a person should review and what data must never leave the client. My recurring pattern: **small specialized models that beat generalists 10× their size**, with the critical decisions made by deterministic code.
+
+### Core expertise
+
+- **C++ (expert, 15 years)**: modern C++20, multithreaded low-latency daemons, native single-binary tools for CPU and GPU, llama.cpp embedded as a library (continuous batching, admission control, SSE streaming), Qt, gRPC, REST and WebSockets, Asterisk modules.
+- **Linux servers (expert)**: production administration and hardening, performance and scaling bottlenecks, incident response and security incidents on cloud fleets (AWS, OVH), systemd services, Docker, CI/CD.
+- **AI platforms**: fine-tuning (full, LoRA, SFT, DPO, distillation), synthetic data, rigorous evaluation (frozen test sets, LLM-as-judge, execution scoring, statistical tests), GGUF quantization, GPU inference with CUDA and Vulkan, RAG, agents and MCP servers.
+- **Real-time voice & telephony**: VoIP/SIP, Asterisk, FreeSWITCH; local speech-to-speech, speech-to-text and text-to-speech models.
+- **Data**: PostgreSQL and MongoDB at high volume, pgvector, hybrid search, SQLCipher.
+- **Leadership**: led teams of 6–15 people (development, systems and support), from analysis to production; the technical face for clients and management.
+
+### Career
+
+| Years | Role |
+|---|---|
+| 2025&nbsp;–&nbsp;now | **Founder & lead architect**, [FactuSight](https://factusight.com): local AI for invoice automation |
+| 2023&nbsp;–&nbsp;now | **Senior Software Engineering Consultant, AI**, contact-center & VoIP software company |
+| 2018&nbsp;–&nbsp;now | **Freelance software & AI consultant**: 30+ projects for 20+ clients |
+| 2021&nbsp;–&nbsp;2022 | **Lead Backend Developer & Systems Architect**: architecture and coordination of the backend, systems and VoIP teams |
+| 2014&nbsp;–&nbsp;2021 | **Technical Lead**: last escalation level for telephony and Linux cloud servers; team of 6–15 people |
+| 2011&nbsp;–&nbsp;2014 | **C++ Software Developer**: Qt/C++, Asterisk modules, PostgreSQL and Linux |
 
 ## Open source
 
