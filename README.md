@@ -43,16 +43,18 @@ A hands-on architect: I decide on measured data (latency, cost, quality) and kno
 
 | Project | What it does | Measured result |
 |---|---|---|
+| [**revisa**](https://github.com/manuelgscom/revisa) | Spanish proofreader that works in any app: select, press a shortcut, review, Enter. 100% offline on the CPU; a Qt tray app for Windows and Linux, plus CLI and LSP. | Fine-tuned **0.8B: F0.5 81.5 · 80.0 · 92.0** on a new open benchmark of real Spanish errors, vs 24.1 · 52.8 · 74.1 for LanguageTool and above an untuned Qwen3.5-9B; **138 ms** per sentence on CPU with input-guided speculative decoding. |
 | [**dale**](https://github.com/manuelgscom/dale) | Natural language → Linux commands. 100% offline, one native C++ binary for CPU and GPU. | Fine-tuned **0.8B: 79.4%** vs 62.8% for Qwen3.5-9B on 471 cases; 1.7 s median on a 2020 laptop CPU. A deterministic shell analyzer catches 100% of 917 dangerous commands. |
 | [**askmdb**](https://github.com/manuelgscom/askmdb) | Natural language → read-only MongoDB queries. 100% offline, native C++ binary. | Fine-tuned **0.8B: 83.6%** vs 47.8% for Qwen3.5-9B on 500 questions over 10 unseen databases, scored by execution. Read-only enforced by a BSON verifier, not by the model. |
 | [**llama-server-native**](https://github.com/manuelgscom/llama-server-native) | llama.cpp's server compiled natively for your GPU in Docker, with private web search (SearXNG + MCP). | **2.5× more tokens/s** on a 27B model (5.7 → 14.5 tok/s on an RTX 5070 Ti) by tuning context, KV cache and VRAM. |
 
 ## Published models
 
-All in GGUF on [huggingface.co/manuelgscom](https://huggingface.co/manuelgscom), with their benchmarks.
+All in GGUF on [huggingface.co/manuelgscom](https://huggingface.co/manuelgscom), with their benchmarks, including [revisa-bench-es](https://huggingface.co/datasets/manuelgscom/revisa-bench-es), an open benchmark of real Spanish errors by native speakers.
 
 | Models | Task | Fine-tuned accuracy | Base model |
 |---|---|---|---|
+| revisa · 0.8B | Spanish proofreading (F0.5, parts A · B · C) | **81.5 · 80.0 · 92.0** | Qwen3.5-9B: 79.8 · 69.6 · 91.2 |
 | dale · 0.8B · 2B · 4B · 9B | Natural language → bash | 79.4 · 81.7 · 87.0 · **89.2%** | Qwen3.5-9B: 62.8% |
 | askmdb · 0.8B · 2B · 4B · 9B | Natural language → MongoDB | 83.6 · 86.8 · 89.6 · **91.6%** | Qwen3.5-9B: 47.8% |
 | FactuSight · 2B · 4B · 9B (VLM) | Invoice image → 22 fields | 98.1 · 99.0 · **99.0%** per field | Qwen3.5-2B: 87.3% |
