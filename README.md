@@ -43,6 +43,7 @@ A hands-on architect: I decide on measured data (latency, cost, quality) and kno
 
 | Project | What it does | Measured result |
 |---|---|---|
+| [**rumor-village**](https://github.com/manuelgscom/rumor-village) | A rumor simulation game with an AI trained for it: a 3D village of up to 100 neighbors, each driven by a fine-tuned Gemma 4 E4B, all their decisions batched on one consumer GPU in real time. C++ engine with llama.cpp embedded (CUDA or Vulkan), offline, Linux and Windows. | Fine-tuned **E4B: 0% made-up memories** vs 2.0–2.3% for the base on 1,000 frozen decisions per language, reading a **256-token card instead of 921**; a 100-neighbor day takes **0.36 s per simulated minute** (vs 0.73) on an RTX 5070 Ti. The model proposes; the engine validates every action. |
 | [**inside-llm**](https://github.com/manuelgscom/inside-llm) · [live demo](https://manuelgs.com/en/inside-llm/demo/) | See inside any GGUF in the browser: two quantizations (or a base model and its fine-tune) token by token, the exact token where their texts split, each sampler stage, branches and a 3D logit lens. One native C++ binary on llama.cpp (CUDA or Vulkan), Linux and Windows. | **60 steps/s** comparing Qwen3.5-4B Q2_K and Q8_0 in lockstep, with both full distributions, divergence and the sampler trace on every token; going back to any branch restores **identical logits** from state snapshots. |
 | [**revisa**](https://github.com/manuelgscom/revisa) | Spanish proofreader that works in any app: select, press a shortcut, review, Enter. 100% offline on the CPU; a Qt tray app for Windows and Linux, plus CLI and LSP. | Fine-tuned **0.8B: F0.5 81.5 · 80.0 · 92.0** on a new open benchmark of real Spanish errors, vs 24.1 · 52.8 · 74.1 for LanguageTool and above an untuned Qwen3.5-9B; **138 ms** per sentence on CPU with input-guided speculative decoding. |
 | [**dale**](https://github.com/manuelgscom/dale) | Natural language → Linux commands. 100% offline, one native C++ binary for CPU and GPU. | Fine-tuned **0.8B: 79.4%** vs 62.8% for Qwen3.5-9B on 471 cases; 1.7 s median on a 2020 laptop CPU. A deterministic shell analyzer catches 100% of 917 dangerous commands. |
@@ -55,6 +56,7 @@ All in GGUF on [huggingface.co/manuelgscom](https://huggingface.co/manuelgscom),
 
 | Models | Task | Fine-tuned accuracy | Base model |
 |---|---|---|---|
+| rumor-village · E4B | Villager decisions as JSON actions (es · en) | **0%** made-up memories; **16.5× · 5.0×** fewer failures | Gemma 4 E4B-it: 2.0% · 2.3% made-up |
 | revisa · 0.8B | Spanish proofreading (F0.5, parts A · B · C) | **81.5 · 80.0 · 92.0** | Qwen3.5-9B: 79.8 · 69.6 · 91.2 |
 | dale · 0.8B · 2B · 4B · 9B | Natural language → bash | 79.4 · 81.7 · 87.0 · **89.2%** | Qwen3.5-9B: 62.8% |
 | askmdb · 0.8B · 2B · 4B · 9B | Natural language → MongoDB | 83.6 · 86.8 · 89.6 · **91.6%** | Qwen3.5-9B: 47.8% |
